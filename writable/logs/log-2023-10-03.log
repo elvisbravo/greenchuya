@@ -1,0 +1,28 @@
+WARNING - 2023-10-03 15:58:31 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', null, null)
+ 2 APPPATH\Controllers\Contact.php(24): CodeIgniter\Email\Email->setFrom(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-03 15:58:31 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 494.
+ 1 SYSTEMPATH\Email\Email.php(494): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\Contact.php(24): CodeIgniter\Email\Email->setFrom(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-03 15:58:31 --> [DEPRECATED] addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 495.
+ 1 SYSTEMPATH\Email\Email.php(495): addcslashes(null, '' . "\0" . '..\'"\\')
+ 2 APPPATH\Controllers\Contact.php(24): CodeIgniter\Email\Email->setFrom(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-03 15:58:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-03 15:58:42 --> * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+
+hello: EHLO BAD Error in IMAP command received by server.
+
+The following SMTP error was encountered: EHLO BAD Error in IMAP command received by server.
+

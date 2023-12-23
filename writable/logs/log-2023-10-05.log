@@ -1,0 +1,21 @@
+ERROR - 2023-10-05 14:06:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-05 14:06:37 --> * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+
+hello: EHLO BAD Error in IMAP command received by server.
+
+The following SMTP error was encountered: EHLO BAD Error in IMAP command received by server.
+
+WARNING - 2023-10-05 14:08:00 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in SYSTEMPATH\Email\Email.php on line 643.
+ 1 SYSTEMPATH\Email\Email.php(643): str_replace('', '', null)
+ 2 APPPATH\Controllers\Contact.php(27): CodeIgniter\Email\Email->setMessage(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 14:08:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-05 14:08:11 --> * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+
+hello: EHLO BAD Error in IMAP command received by server.
+
+The following SMTP error was encountered: EHLO BAD Error in IMAP command received by server.
+

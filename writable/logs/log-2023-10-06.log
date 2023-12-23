@@ -1,0 +1,60 @@
+ERROR - 2023-10-06 17:56:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for greenchuya.com failed: Host desconocido.  in D:\xampp\htdocs\greenchuya\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\xampp\\htdocs...', 1888)
+#1 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1888): fsockopen('ssl://greenchuy...', 993, NULL, NULL, 5)
+#2 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\greenchuya\app\Controllers\Contact.php(25): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+#7 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#8 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\greenchuya\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-06 17:56:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-06 17:56:42 --> 
+ERROR - 2023-10-06 17:57:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for greenchuya.com failed: Host desconocido.  in D:\xampp\htdocs\greenchuya\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\xampp\\htdocs...', 1888)
+#1 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1888): fsockopen('ssl://greenchuy...', 993, NULL, NULL, 5)
+#2 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\greenchuya\app\Controllers\Contact.php(25): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+#7 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#8 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\greenchuya\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-06 17:57:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-06 17:57:00 --> 
+ERROR - 2023-10-06 17:58:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for greenchuya.com failed: Host desconocido.  in D:\xampp\htdocs\greenchuya\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\xampp\\htdocs...', 1888)
+#1 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1888): fsockopen('ssl://greenchuy...', 465, NULL, NULL, 5)
+#2 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\greenchuya\app\Controllers\Contact.php(25): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+#7 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#8 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\greenchuya\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-06 17:58:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-06 17:58:25 --> 
+ERROR - 2023-10-06 17:58:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for greenchuya.com failed: Host desconocido.  in D:\xampp\htdocs\greenchuya\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\xampp\\htdocs...', 1888)
+#1 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1888): fsockopen('ssl://greenchuy...', 465, NULL, NULL, 5)
+#2 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\greenchuya\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\greenchuya\app\Controllers\Contact.php(25): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(919): App\Controllers\Contact->sendEmail()
+#7 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#8 D:\xampp\htdocs\greenchuya\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\greenchuya\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-06 17:58:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-06 17:58:57 --> 
